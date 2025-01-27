@@ -8,27 +8,8 @@ import mobileBeyti from './mobileBeyti.jpeg'
 import beyti2 from './beyti2.jpeg'
 import beyti3 from './beyti3.jpeg'
 
-function Home({ projectsData }) {
-  const [selectedFrameworks, setSelectedFrameworks] = useState([]);
-  const [activeProject, setActiveProject] = useState(null);
-
-  // Handle framework checkbox changes
-  const handleCheckboxChange = (framework) => {
-    setSelectedFrameworks((prev) =>
-      prev.includes(framework)
-        ? prev.filter((item) => item !== framework)
-        : [...prev, framework]
-    );
-  };
-
-  // Filter projects based on selected frameworks
-  const filteredProjects = selectedFrameworks.length
-    ? projectsData.filter((project) =>
-        selectedFrameworks.some((framework) =>
-          project.frameworks.includes(framework)
-        )
-      )
-    : projectsData;
+function Home() {
+  
 
   return (
     <div>
@@ -90,9 +71,11 @@ function Home({ projectsData }) {
 </div>
 <div className="mobileBeyti-container">
     <div className="mobileBeyti-right-container">
+      <div className="mobileBeyti-images">
     <img className="mobileBeyti-image" src={beyti2} alt="mobileBeyti"></img>
     <img className="mobileBeyti2-image" src={mobileBeyti} alt="mobile beyti"></img>
     <img className="mobileBeyti3-image" src={beyti3} alt="mobile beyti"></img>
+    </div>
     </div>
     <div className="mobileBeyti-left-container">
       <div className="mobileBeyti-title">mobile beyti</div>
@@ -102,27 +85,112 @@ function Home({ projectsData }) {
       </div>
     </div>
 </div>
+<div className="colors-indicator-container">
+      <div className="colors-indicator">
+        <div className="all-info">
+      <div className="color-info">
+        <div className="blue-indicator"></div>
+        </div>
+         <div className="text-info">
+        <p className="color-name">skills</p>
+        </div>
+        </div>
+        <div className="all-info">
+        <div className="color-info">
+        <div className="orange-indicator"></div>
+        </div>
+        <div className="text-info">
+        <p className="color-name">goals</p>
+        </div>
+        </div>
+        <div className="all-info">
+        <div className="color-info">
+        <div className="green-indicator"></div>
+        </div>
+        <div className="text-info">
+        <p className="color-name">interests</p>
+        </div>
+        </div>
+        <div className="all-info">
+        <div className="color-info">
+        <div className="pink-indicator"></div>
+        </div>
+        <div className="text-info">
+        <p className="color-name">pink</p>
+      </div>
+      </div>
+      </div>
+      </div>
     <div className="about-container">
         <div className="about-board">
           <div className="about-blue">
-          <div className="about-blue-1"></div>
-          <div className="about-blue-2"></div>
-          <div className="about-blue-3"></div>
+          <div className="about-blue-1">
+            <ul className="skills-data">
+              <b>frameworks</b>
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+              <li>react</li>
+              <li>php-laravel</li>
+            </ul>
+          </div>
+          <div className="about-blue-2">
+            <ul className="skills-data">
+              <b>languages</b>
+              <li>java</li>
+              <li>javaFX</li>
+              <li>c++</li>
+              <li>python</li>
+            </ul>
+          </div>
+          <div className="about-blue-3">
+            <ul className="skills-data">
+              <b>DBMS</b>
+              <li>mySQL</li>
+              <li>mongoDB</li>
+              <li>PL-SQL</li>
+            </ul>
+          </div>
           <div className="about-blue-4"></div>
           </div>
           <div className="about-right">
           <div className="about-orange">
-          <div className="about-orange-1"></div>
-          <div className="about-orange-2"></div>
+          <div className="about-orange-1">
+            <ul className="skills-data">
+              <li>become an expert in web dev</li>
+              <li>gain more experience</li>
+              <li>develop a sense of urgency</li>
+            </ul>
+          </div>
+          <div className="about-orange-2">
+            <ul className="skills-data">
+              <li>build more relations in my field</li>
+              <li>become trusted by companies</li>
+              <li>become more productive</li>
+            </ul>
+          </div>
           </div>
           <div className="about-green">
-          <div className="about-green-1"></div>
-          <div className="about-green-2"></div>
+          <div className="about-green-1">
+            <ul className="skills-data">
+              <li>calesthenics</li>
+              <li>football</li>
+              <li>meditation</li>
+            </ul>
+          </div>
+          <div className="about-green-2">
+            <ul className="skills-data">
+              <li>reading (ar)</li>
+              <li>writing (ar)</li>
+              <li>english self development</li>
+            </ul>
+          </div>
           </div>
           <div className="about-pink"></div>
           </div>
         </div>
     </div>
+    
       
       <div className="cv-container">
         <div className='cv-text'>click here to download cv</div>

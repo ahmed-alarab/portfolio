@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 /* Home Section */
@@ -184,106 +185,7 @@ body {
 }
 
 
-.projects-projects-container {
-    position: absolute;
-    height: 100%;
-    left: 0;
-    top: 0;
-    padding: 2%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6%;
-}
 
-.projects-project {
-    width:20%;
-    height: 40%;
-    background-color: red;
-    border-radius: 20px;
-}
-
-.projects-project-background {
-    position: relative;
-    width: 100%;
-    height: 20%;
-}
-
-.projects-project-image {
-    width: 100%;
-    height: 80%;
-    border-radius: 20px 20px 0px 0px;
-}
-
-.projects-project-button {
-    position: absolute;
-    right: 0;
-    top: 56%;
-    margin-right: 2%;
-    width: 20%;
-    height: 30%;
-    border-radius: 10px;
-}
-
-.projects-project-title {
-    position: absolute;
-    width: 100%;
-    font-size: 24px;
-    margin-left: 2%;
-    color: white;
-}
-
-.projects-project-frameworks {
-    position: absolute;
-    top: 56%;
-    font-size: 18px;
-    margin-left: 2%;
-    color: white;
-}
-
-.projects-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.projects-modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 40%;
-    text-align: center;
-    position: relative;
-}
-
-.modal-image {
-    width: 100%;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-
-.modal-close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    padding: 5px 10px;
-    background-color: red;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.modal-close-button:hover {
-    background-color: darkred;
-}
 .cv-container{
     background-color: black;
     position: relative;
@@ -328,19 +230,19 @@ body {
 
 }
 .ttt-title{
-    font-size: 56px;
+    font-size: 3rem;
     color: white;
     font-weight: bold;
 }
 .ttt-content{
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 50%;
+    max-width: 35%;
 
 }
 .ttt-frameworks-container{
-    font-size: 24px;
+    font-size: 2rem;
     white-space: nowrap;
      margin-top: 2%;
 }
@@ -385,21 +287,21 @@ body {
 }
 
 .beyti-title {
-    font-size: 56px;
+    font-size: 3rem;
     color: white;
     font-weight: bold;
 }
 
 .beyti-content {
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 50%;
+    max-width: 35%;
 
 }
 
 .beyti-frameworks-container {
-    font-size: 24px;
+    font-size: 2rem;
     white-space: nowrap;
     margin-top: 2%;
 }
@@ -427,12 +329,20 @@ body {
 
 .mobileBeyti-right-container {
     position: relative;
-    left: 5%;
+    left:10%;
+    width: 50%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+
+}
+.mobileBeyti-images{
+    position:relative;
 
 }
 
 .mobileBeyti-image {
-    width: 55%;
+    width: 40%;
     border: black solid 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
@@ -441,15 +351,15 @@ body {
     border-radius: 20px;
     border:solid black 4px;
     position:absolute;
-    width:55%;
-    margin-left: 80%;
+    width:40%;
+    margin-left: 60%;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
 }
 .mobileBeyti3-image {
     border-radius: 20px;
     border: solid black 4px;
     position: absolute;
-    width: 55%;
+    width: 40%;
     margin-left: 10%;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
 }
@@ -457,25 +367,27 @@ body {
 .mobileBeyti-left-container {
     position: absolute;
     left: 5%;
+    width: 35%;
+    
 
 }
 
 .mobileBeyti-title {
-    font-size: 56px;
+    font-size: 3rem;
     color: white;
     font-weight: bold;
 }
 
 .mobileBeyti-content {
-    font-size: 32px;
+    font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 50%;
+    max-width: 80%;
 
 }
 
 .mobileBeyti-frameworks-container {
-    font-size: 24px;
+    font-size: 2rem;
     white-space: nowrap;
     margin-top: 2%;
 }
@@ -579,6 +491,9 @@ body {
         background-color: green;
         box-shadow: 0px 10px 5px;
 }
+.skills-data{
+    font-size: 2rem;
+}
 .about-green-2{
         width: 95%;
         height: 50%;
@@ -590,4 +505,69 @@ body {
     height: 50%;
     background-color: pink;
     box-shadow: 0px 20px 10px;
+}
+.colors-indicator-container{
+    width:100%;
+    height: 80px;
+    position:relative;
+    background-color: black;
+}
+.colors-indicator{
+    width: 80%;
+    height:100%;
+    position:relative;
+    display: flex;
+    margin-left: 10%;    
+    
+}
+.blue-indicator{
+    width: 50px;
+    height: 50px;
+    background-color:blue;
+    border-radius: 100px;
+
+    
+}
+.orange-indicator{
+width: 50px;
+    height: 50px;
+    background-color: orange;
+        border-radius: 100px;
+}
+.green-indicator{
+width: 50px;
+    height: 50px;
+    background-color:green;
+        border-radius: 100px;
+}
+.pink-indicator{
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+        border-radius: 100px;
+}
+.color-name{
+    width: fit-content;
+    font-size: 2rem;
+    
+}
+.color-info{
+    height: 100%;
+    display:grid;
+    place-content:center;
+    
+}
+.text-info {
+    height: 100%;
+    display: grid;
+    place-content: center;
+    color:white;
+}
+.all-info{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
 }
