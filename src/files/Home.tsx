@@ -15,29 +15,29 @@ function Home() {
     <div>
       {/* Home Section */}
       <div className="home-container">
-        <div className="home-right">
-          <img src={background} alt="background" className="home-background-image" />
-          <div className="home-buttons-container">
-            <button className="home-buttons">profile</button>
-            <button className="home-buttons">projects</button>
-            <button className="home-buttons">CV</button>
-            <button className="home-buttons">about</button>
-            <button className="home-buttons">contact</button>
+        
+        <div className="home">
+          <div className="navigation-bar">
+            <div className="nav-buttons-container">
+            <button className="nav-buttons">home</button>
+            <button className="nav-buttons">projects</button>
+            <button className="nav-buttons">about</button>
+            <button className="nav-buttons">contact</button>
           </div>
-        </div>
-        <div className="home-left">
+          </div>
+          <div className="home-info-container">
           <div className="home-name">
-            hello I'm <br />
+            hello I'm <br /></div>
             <div className="home-full-name">Ahmad AL ARAB</div>
+          <div className="motivation-sentence">Excited to be part of a team working
+             on full-stack web development.</div>
           </div>
-          <div className="home-degree">3rd year computer science student</div>
-          <div className="home-uni">at antonine university</div>
+          <div className="home-me-field">
           <div className="home-field">full stack web developer</div>
-          <ul className="home-open">
-          </ul>
           <div className="home-me-container">
             <div className="home-me-border">
               <img src={me} alt="me" className="home-me" />
+              </div>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@ function Home() {
         <div className="pink-indicator"></div>
         </div>
         <div className="text-info">
-        <p className="color-name">pink</p>
+        <p className="color-name">growth & ambitions</p>
       </div>
       </div>
       </div>
@@ -165,8 +165,8 @@ function Home() {
           <div className="about-orange-2">
             <ul className="skills-data">
               <li>build more relations in my field</li>
-              <li>become trusted by companies</li>
-              <li>become more productive</li>
+              <li>delivering quality work</li>
+              <li>improving time management</li>
             </ul>
           </div>
           </div>
@@ -186,7 +186,15 @@ function Home() {
             </ul>
           </div>
           </div>
-          <div className="about-pink"></div>
+          <div className="about-pink">
+            <ul className="skills-data">
+              <p>working on many project that improve my skills in web dev. 
+                developing my problem solving skills and Staying up-to-date with the latest versions of
+                 frameworks and languages. <br/><br/> Preparing myself to effectively contribute to team projects
+                  or manage tasks individually, depending on the requirements of the job. <br/> <br/>
+                  Capable of acquiring new skills rapidly and adjusting to various work environments with ease.</p>
+            </ul>
+          </div>
           </div>
         </div>
     </div>

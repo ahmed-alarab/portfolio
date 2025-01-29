@@ -15,107 +15,102 @@ body {
     margin: 0;
 }
 
-.home-left {
+.home {
     position: absolute;
     left: 0;
     top: 0;
-    width: 50%;
+    width: 100%;
     height: 100%;
 }
-
-.home-portfolio-message {
-    font-family: "Michroma", serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #2b5329;
+.navigation-bar{
+    position:absolute;
+    height: 3rem;
+    width:100%;
+}
+.nav-buttons-container{
+    width: 30%;
+    height: 100%;
+    position:relative;
+    left: 70%;
+}
+.nav-buttons{
+    width: 25%;
+    height: 100%;
+    font-size: 1.4rem;
+    background: black;
+    color: rgb(194, 194, 194);
+    border:black 0px solid;
     position: relative;
-    top: 0;
-    font-size: 48px;
-    text-align: center;
+    
+}
+.nav-buttons:hover{
+    text-decoration: underline;
+    color:white;
 }
 
+.home-info-container{
+    width: 50%;
+    height: 25%;
+    position: relative;
+    top: 20%;
+    left:3%;
+    width:30%;
+}
 .home-name {
     font-family: "Michroma", serif;
     font-weight: 0;
     font-style: normal;
     color: white;
     position: relative;
-    top: 9%;
-    text-align: center;
     font-size: 36px;
 }
-
 .home-full-name {
+    font-family: "Michroma", serif;
+        font-weight: 0;
+        font-style: normal;
     color: blue;
-    font-size: 42px;
+    font-size: 3rem;
+    top:20%;
 }
-
-.home-degree {
+.motivation-sentence{
     font-family: "Michroma", serif;
-    font-weight: 0;
-    font-style: normal;
-    color: white;
-    position: relative;
-    top: 16%;
-    text-align: center;
-    font-size: 24px;
+        font-weight: 0;
+        font-style: normal;
+        color: white;
+        position: relative;
+        font-size: 1.5rem;
+        top:20%;
 }
-
-.home-uni {
-    font-family: "Michroma", serif;
-    font-weight: 0;
-    font-style: normal;
-    color: white;
+.home-me-field{
     position: relative;
-    top: 18%;
-    font-size: 24px;
-    border: dotted white 1px;
-    text-align: center;
-    width: 40%;
-    margin-left: 30%;
-    padding: 10px;
+    width: 50%;
+    height:50%;
+    left:50%;
+    top:10%;
 }
-
 .home-field {
     font-family: "Michroma", serif;
     font-weight: 0;
     font-style: normal;
     color: red;
     position: relative;
-    top: 24%;
+    top: 0%;
     text-align: center;
     font-size: 42px;
 }
 
-.home-open {
-    font-family: "Michroma", serif;
-    font-weight: 0;
-    font-style: normal;
-    color: white;
-    position: relative;
-    top: 14%;
-    font-size: 24px;
-    list-style: none;
-}
-
-.home-list {
-    position: relative;
-    top: 14%;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .home-me-container {
     position: relative;
-    top: 30%;
-    width: 100%;
+    width:100%;
     display: grid;
     place-items: center;
+    top: 10%;
+    height:80%;
 }
 
 .home-me-border {
-    width: 30%;
-    height: 110%;
+    width:50%;
+    height: 100%;
     background-color: black;
     border-radius: 50%;
     display: grid;
@@ -492,7 +487,7 @@ body {
         box-shadow: 0px 10px 5px;
 }
 .skills-data{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 .about-green-2{
         width: 95%;
@@ -505,6 +500,7 @@ body {
     height: 50%;
     background-color: pink;
     box-shadow: 0px 20px 10px;
+    
 }
 .colors-indicator-container{
     width:100%;
