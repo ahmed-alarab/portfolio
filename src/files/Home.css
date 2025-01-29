@@ -28,10 +28,10 @@ body {
     width:100%;
 }
 .nav-buttons-container{
-    width: 30%;
+    width: 40%;
     height: 100%;
     position:relative;
-    left: 70%;
+    left: 60%;
 }
 .nav-buttons{
     width: 25%;
@@ -52,9 +52,9 @@ body {
     width: 50%;
     height: 25%;
     position: relative;
-    top: 20%;
+    top: 10%;
     left:3%;
-    width:30%;
+    width:40%;
 }
 .home-name {
     font-family: "Michroma", serif;
@@ -62,15 +62,15 @@ body {
     font-style: normal;
     color: white;
     position: relative;
-    font-size: 36px;
+    font-size:2rem;
 }
 .home-full-name {
-    font-family: "Michroma", serif;
+        font-family: "Michroma", serif;
         font-weight: 0;
         font-style: normal;
-    color: blue;
-    font-size: 3rem;
-    top:20%;
+        color: blue;
+        font-size: 3rem;
+        top:20%;
 }
 .motivation-sentence{
     font-family: "Michroma", serif;
@@ -78,7 +78,7 @@ body {
         font-style: normal;
         color: white;
         position: relative;
-        font-size: 1.5rem;
+        font-size:2rem;
         top:20%;
 }
 .home-me-field{
@@ -96,7 +96,7 @@ body {
     position: relative;
     top: 0%;
     text-align: center;
-    font-size: 42px;
+    font-size: 3rem;
 }
 
 .home-me-container {
@@ -109,7 +109,7 @@ body {
 }
 
 .home-me-border {
-    width:50%;
+    width:40%;
     height: 100%;
     background-color: black;
     border-radius: 50%;
@@ -408,7 +408,7 @@ body {
 .about-board{
     height: 90%;
     width: 90%;
-    background-color: rgb(252, 255, 229);
+    background-color: rgb(219, 219, 219);
     padding: 1%;
     display: flex;
     flex-wrap: wrap;
@@ -423,25 +423,25 @@ body {
     
 }
 .about-blue-1{
-    background-color: blue;
+    background-color: lightblue;
     width: 45%;
     height:50%;
     box-shadow: 0px 20px 10px ;
 }
 .about-blue-2 {
-    background-color: blue;
+    background-color: lightblue;
     width: 45%;
     height: 50%;
     box-shadow: 0px 20px 10px;
 }
 .about-blue-3 {
-    background-color: blue;
+    background-color: lightblue;
     width: 45%;
     height: 50%;
     box-shadow: 0px 20px 10px;
 }
 .about-blue-4 {
-    background-color: blue;
+    background-color: lightblue;
     width: 45%;
     height: 50%;
     box-shadow: 0px 20px 10px;
@@ -464,13 +464,13 @@ body {
 .about-orange-1{
     width:95%;
     height:50%;
-    background-color: orange;
+    background-color: rgb(255, 69, 255);
     box-shadow: 0px 10px 5px;
 }
 .about-orange-2{
     width:95%;
     height:50%;
-    background-color: orange;
+    background-color: rgb(255, 69, 255);
     box-shadow: 0px 10px 5px;
 }
 .about-green{
@@ -483,7 +483,7 @@ body {
 .about-green-1{
     width: 95%;
         height: 50%;
-        background-color: green;
+        background-color: lightgreen;
         box-shadow: 0px 10px 5px;
 }
 .skills-data{
@@ -492,7 +492,7 @@ body {
 .about-green-2{
         width: 95%;
         height: 50%;
-        background-color: green;
+        background-color: lightgreen;
         box-shadow: 0px 10px 5px;
 }
 .about-pink{
@@ -519,7 +519,7 @@ body {
 .blue-indicator{
     width: 50px;
     height: 50px;
-    background-color:blue;
+    background-color:lightblue;
     border-radius: 100px;
 
     
@@ -527,13 +527,13 @@ body {
 .orange-indicator{
 width: 50px;
     height: 50px;
-    background-color: orange;
+    background-color: rgb(255, 69, 255);
         border-radius: 100px;
 }
 .green-indicator{
 width: 50px;
     height: 50px;
-    background-color:green;
+    background-color:lightgreen;
         border-radius: 100px;
 }
 .pink-indicator{
