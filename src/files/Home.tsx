@@ -126,17 +126,17 @@ function Home() {
           <div className="about-blue">
           <div className="about-blue-1">
             <ul className="skills-data">
-              <b>frameworks</b>
               <li>html</li>
               <li>css</li>
               <li>javaScript</li>
+              <li>typeScript</li>
               <li>react</li>
               <li>php-laravel</li>
+
             </ul>
           </div>
           <div className="about-blue-2">
             <ul className="skills-data">
-              <b>languages</b>
               <li>java</li>
               <li>javaFX</li>
               <li>c++</li>
@@ -145,7 +145,6 @@ function Home() {
           </div>
           <div className="about-blue-3">
             <ul className="skills-data">
-              <b>DBMS</b>
               <li>mySQL</li>
               <li>mongoDB</li>
               <li>PL-SQL</li>
@@ -199,11 +198,25 @@ function Home() {
         </div>
     </div>
     
-      
-      <div className="cv-container">
-        <div className='cv-text'>click here to download cv</div>
-        <a className="cv-download-button" href='Ahmad Alarab_CV(1)'>download</a>
+
+      <div className="contact-container">
+        <div className="contact-content">
+          <div className="congrats-top-left">🎉</div>
+          <div className="congrats-top-right">🎉</div>
+        <p className="contact-title">Get in touch!🚀 </p>
+        <div className="link-container"><b><a href="" className="contact-a"><span className='contact-emoji'>👉</span><span className="contact-link">ahmadalarab011@gmail.com</span></a></b></div>
+        <button className="contact-button">HIRE ME</button>
+        <div className="congrats-bottom-left">🎉</div>
+        <div className="congrats-bottom-right">🎉</div>
       </div>
+</div>
+      <div className="footer-container">
+
+      </div>
+
+
+
+
     </div>
   );
 }

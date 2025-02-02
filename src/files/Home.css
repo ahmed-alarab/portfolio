@@ -400,13 +400,13 @@ body {
     padding: 10px;
 }
 .about-container{
-    height:100vh;
+    min-height:100vh;
     background-color: black;
     display: grid;
     place-items: center;
 }
 .about-board{
-    height: 90%;
+    height: 98%;
     width: 90%;
     background-color: rgb(219, 219, 219);
     padding: 1%;
@@ -566,4 +566,120 @@ width: 50px;
     display: flex;
     justify-content: center;
     gap: 5%;
+}
+.contact-container{
+    background-color: black;
+    color:white;
+    position:relative;
+    overflow: auto;
+    height:100vh;
+}
+.contact-content{
+    height:100%;
+    place-content:center;
+}
+
+.contact-title{
+    margin-left:20%;
+    position:relative;
+    font-size:3rem;
+    color:rgb(167, 167, 167);
+    text-shadow:2px 2px 2px white;
+
+}
+.link-container{
+    position:relative;
+    font-size:2rem;
+    width: 100%;
+    height:50px;
+}
+
+.contact-link{
+    position:absolute;
+    margin-left: 20%;
+    color: white;  
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact-emoji{
+    position:absolute;
+    width:6%;
+    margin-left:calc(20% - 50px);
+}
+.contact-a{
+
+    text-decoration: none;
+}
+.contact-button {
+    margin-left:20%;
+    margin-bottom: 100px;
+    position: relative;
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    background: linear-gradient(135deg, #C0C0C0, #E0E0E0, #A8A8A8);
+    border: none;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 4px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Moving light reflection effect */
+.contact-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 150%;
+    height: 100%;
+    background: linear-gradient(115deg,
+            rgba(255, 255, 255, 0) 30%,
+            rgba(255, 255, 255, 0.8) 50%,
+            rgba(255, 255, 255, 0) 70%);
+    transform: skewX(-20deg);
+    animation: shine 5s infinite linear;
+    opacity: 0.8;
+}
+
+@keyframes shine {
+    0% {
+        left: -500%;
+    }
+
+    100% {
+        left: 500%;
+    }
+}
+.congrats-top-left{
+    top:150px;
+    position: absolute;
+    left:10%;
+    font-size: 40px;
+}
+.congrats-top-right {
+    position: absolute;
+    top: 150px;
+    right: 10%;
+    font-size: 40px;
+}
+.congrats-bottom-right {
+bottom: 150px;
+    font-size:40px;
+    position: absolute;
+    right: 10%;
+}
+.congrats-bottom-left {
+    bottom: 150px;
+    position: absolute;
+    left: 10%;
+    font-size: 40px;
+}
+.footer-container{
+    height:400px;
+    background-color:rgb(63, 63, 63);
+    width:100%;
+
 }
