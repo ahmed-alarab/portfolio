@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    min-width:1000px;
 }
 
 /* Home Section */
@@ -220,20 +221,24 @@ body {
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
 }
 .ttt-left-container{
+    width:37%;
     position: absolute;
     left: 5%;
-
+    min-width:30%;
 }
 .ttt-title{
     font-size: 3rem;
     color: white;
     font-weight: bold;
+    min-width:300px;
 }
 .ttt-content{
+    position: relative;
     font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 35%;
+    width:90%;
+    min-width:300px;    
 
 }
 .ttt-frameworks-container{
@@ -278,6 +283,7 @@ body {
 .beyti-left-container {
     position: absolute;
     left: 5%;
+    width:37%;
 
 }
 
@@ -291,7 +297,8 @@ body {
     font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 35%;
+    max-width: 90%;
+    min-width:300px;
 
 }
 
@@ -324,20 +331,25 @@ body {
 
 .mobileBeyti-right-container {
     position: relative;
-    left:10%;
-    width: 50%;
+    left:30%;
+    width: 70%;
     height: 100%;
-    display: grid;
     place-content: center;
 
 }
 .mobileBeyti-images{
     position:relative;
-
+    width:100%;
+    height:50%;
+    display: flex;
+    gap: 5%;
+    
+    
 }
 
 .mobileBeyti-image {
-    width: 40%;
+    position: relative;
+    width: 20%;
     border: black solid 4px;
     border-radius: 20px;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
@@ -345,24 +357,22 @@ body {
 .mobileBeyti2-image{
     border-radius: 20px;
     border:solid black 4px;
-    position:absolute;
-    width:40%;
-    margin-left: 60%;
+    position:relative;
+    width:20%;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
 }
 .mobileBeyti3-image {
     border-radius: 20px;
     border: solid black 4px;
-    position: absolute;
-    width: 40%;
-    margin-left: 10%;
+    position: relative;
+    width: 20%;
     box-shadow: 2px 2px 50px rgba(255, 255, 255, 0.9);
 }
 
 .mobileBeyti-left-container {
     position: absolute;
     left: 5%;
-    width: 35%;
+    width:40%;
     
 
 }
@@ -371,13 +381,15 @@ body {
     font-size: 3rem;
     color: white;
     font-weight: bold;
+    min-width:300px;
 }
 
 .mobileBeyti-content {
     font-size: 2rem;
     margin-top: 3%;
     color: white;
-    max-width: 80%;
+    max-width:90%;
+    min-width: 300px;
 
 }
 
@@ -678,8 +690,42 @@ bottom: 150px;
     font-size: 40px;
 }
 .footer-container{
-    height:400px;
-    background-color:rgb(63, 63, 63);
+    position: relative;
+    height:80px;
+    background-color:rgb(206, 206, 206);
     width:100%;
+    overflow: auto;
+}
+.footer-name-container{
+    min-width:450px;
+    max-width:450px;
+    height:100%;
+    position: relative;
+    display: grid;
+    place-content: center;
+
+}
+.footer-name{
+    height: 100%;
+    font-size: 3rem;
+    
+}
+.footer-links{
+    position: absolute;
+    width: 100%;
+    height:80%;
+    top: 10%;
+    left:85%;
+}
+.footer-icons{
+    width: 15%;
+    height:100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.footer-icon{
+    height: 100%;
+    width: 50px;
 
 }

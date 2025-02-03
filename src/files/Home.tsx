@@ -7,9 +7,15 @@ import beyti from './beyti.png'
 import mobileBeyti from './mobileBeyti.jpeg'
 import beyti2 from './beyti2.jpeg'
 import beyti3 from './beyti3.jpeg'
+import linkedIn from './linkedin.png'
+import github from './github-logo.png'
+import gmail from './email.png'
 
 function Home() {
   
+  const handleHireMeClick = () => {
+    window.location.href = "mailto:ahmadalarab011@gmail.com?subject=Hiring%20Inquiry&body=Hello%20Ahmad,%20I%20am%20interested%20in%20hiring%20you.";
+  }
 
   return (
     <div>
@@ -29,8 +35,7 @@ function Home() {
           <div className="home-name">
             hello I'm <br /></div>
             <div className="home-full-name">Ahmad AL ARAB</div>
-          <div className="motivation-sentence">Excited to be part of a team working
-             on full-stack web development.</div>
+          <div className="motivation-sentence">Bringing skills in both frontend and backend to create effective solutions.</div>
           </div>
           <div className="home-me-field">
           <div className="home-field">full stack web developer</div>
@@ -49,7 +54,11 @@ function Home() {
     </div>
     <div className="ttt-left-container">
       <div className="ttt-title">time to travel</div>
-      <div className="ttt-content">website allows you to create an account or login, and buy a ticket for a travel with the options shown.</div>
+      <div className="ttt-content">Time to Travel is an easy-to-use platform where you can log in or sign up
+         to book tickets to any country of your choice.
+         Simply fill in your travel details,
+         and you'll be able to purchase your ticket in no time,
+          making your travel planning smoother and more efficient.</div>
       <div className="ttt-frameworks-container">
           <div className="ttt-frameworks">html</div>
           <div className="ttt-frameworks">css</div>
@@ -63,7 +72,7 @@ function Home() {
     </div>
     <div className="beyti-left-container">
       <div className="beyti-title">beyti</div>
-      <div className="beyti-content">website created to help people during the war to find houses for rent, user can post a property or rent a house.</div>
+      <div className="beyti-content">Beyti is a platform dedicated to helping Lebanese people find rental homes during the ongoing war. The website allows users to post their own properties for rent, providing a valuable resource for those in need of housing across the entire country.</div>
       <div className="beyti-frameworks-container">
           <div className="beyti-frameworks">react</div>
       </div>
@@ -79,7 +88,8 @@ function Home() {
     </div>
     <div className="mobileBeyti-left-container">
       <div className="mobileBeyti-title">mobile beyti</div>
-      <div className="mobileBeyti-content">mobile application created for helping people to find houses during the war.</div>
+      <div className="mobileBeyti-content">Beyti is a mobile application designed to assist Lebanese people in finding rental homes amidst the ongoing war. The app enables users to post their own properties for rent,
+         offering a crucial service to those seeking housing throughout Lebanon.</div>
       <div className="mobileBeyti-frameworks-container">
           <div className="mobileBeyti-frameworks">react native</div>
       </div>
@@ -204,14 +214,25 @@ function Home() {
           <div className="congrats-top-left">🎉</div>
           <div className="congrats-top-right">🎉</div>
         <p className="contact-title">Get in touch!🚀 </p>
-        <div className="link-container"><b><a href="" className="contact-a"><span className='contact-emoji'>👉</span><span className="contact-link">ahmadalarab011@gmail.com</span></a></b></div>
-        <button className="contact-button">HIRE ME</button>
+        <div className="link-container"><b><a href="mailto:ahmadalarab011@gmail.com?subject=Hiring%20Inquiry&body=Hello%20Ahmad,%20I%20am%20interested%20in%20hiring%20you." className="contact-a"><span className='contact-emoji'>👉</span><span className="contact-link">ahmadalarab011@gmail.com</span></a></b></div>
+        <button className="contact-button" onClick={handleHireMeClick}>HIRE ME</button>
         <div className="congrats-bottom-left">🎉</div>
         <div className="congrats-bottom-right">🎉</div>
       </div>
 </div>
       <div className="footer-container">
-
+        <div className="footer-name-container">
+<p className="footer-name">AHMAD AL ARAB</p>
+</div>
+        <div className="footer-links">
+          <div className="footer-icons">
+          <a href="linkedin.com/in/ahmad-alarab-7973842b6"><img className="footer-icon" src={linkedIn} alt="hehe"></img></a>
+          <a href="https:github.com/ahmed-alarab"><img className="footer-icon" src={github} alt="hehe"></img></a>
+          <a href="mailto:ahmadalarab011@gmail.com"><img className="footer-icon" src={gmail} alt="hehe"></img></a>
+        </div>
+        </div>
+        
+    
       </div>
 
 
