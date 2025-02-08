@@ -16,12 +16,20 @@ body {
     margin: 0;
 }
 
-.home {
+.home-right {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left:50%;
+    
+}
+.home-left {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
+
 }
 .navigation-bar{
     position:absolute;
@@ -50,12 +58,19 @@ body {
 }
 
 .home-info-container{
-    width: 50%;
-    height: 25%;
+    width: 90%;
+    height: 90%;
+    min-height: 100%;
     position: relative;
-    top: 10%;
-    left:3%;
-    width:40%;
+    top:10%;
+    left:10%;
+}
+.home-info-container2 {
+    width: 40%;
+    height: 50%;
+    position: relative;
+    top: 25%;
+    left: 3%;
 }
 .home-name {
     font-family: "Michroma", serif;
@@ -64,14 +79,19 @@ body {
     color: white;
     position: relative;
     font-size:2rem;
+    height: 5%;
+    min-height: 5%;
 }
+@media(min-width:1200px){
 .home-full-name {
+        position: relative;
         font-family: "Michroma", serif;
         font-weight: 0;
         font-style: normal;
         color: blue;
         font-size: 3rem;
-        top:20%;
+        height: 10%;
+        min-height: 10%;
 }
 .motivation-sentence{
     font-family: "Michroma", serif;
@@ -80,14 +100,104 @@ body {
         color: white;
         position: relative;
         font-size:2rem;
-        top:20%;
+        height: 30%;
+        min-height:30%;
+}}
+@media(max-width:1200px) {
+    .home-full-name {
+        position: relative;
+        font-family: "Michroma", serif;
+        font-weight: 0;
+        font-style: normal;
+        color: blue;
+        font-size: 2rem;
+        height: 10%;
+        min-height: 10%;
+    }
+
+    .motivation-sentence {
+        font-family: "Michroma", serif;
+        font-weight: 0;
+        font-style: normal;
+        color: white;
+        position: relative;
+        font-size: 1rem;
+        height: 30%;
+        min-height: 30%;
+    }
+}
+.home-name2 {
+    font-family: "Michroma", serif;
+    font-weight: 0;
+    font-style: normal;
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    height: 10%;
+    min-height: 10%;
+}
+
+.home-full-name2 {
+    position: relative;
+    font-family: "Michroma", serif;
+    font-weight: 0;
+    font-style: normal;
+    color: blue;
+    font-size: 3rem;
+    height: 15%;
+    min-height: 15%;
+}
+
+.motivation-sentence2 {
+    font-family: "Michroma", serif;
+    font-weight: 0;
+    font-style: normal;
+    color: white;
+    position: relative;
+    font-size: 2rem;
+    top: 5%;
+    height: 30%;
+    min-height: 30%;
+}
+.home-year{
+font-family: "Michroma", serif;
+    font-weight: 0;
+    font-style: normal;
+    color: white;
+    font-size: 1.2rem;
+    position: relative;
+    top:10%;
+    text-align: center;
+    height: 20%;
+    min-height: 20%;
+
+}
+.home-uni{
+    position: relative;
+    font-family: "Michroma", serif;
+        font-weight: 0;
+        font-style: normal;
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        border:white double 5px;
+        top:10%;
+        min-height: 5%;
 }
 .home-me-field{
     position: relative;
-    width: 50%;
+    top: 40%;
+    left: 0;
+    width: 100%;
     height:50%;
-    left:50%;
-    top:10%;
+
+}
+.home-me-field2 {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 50%;
+    top:25%;
 }
 .home-field {
     font-family: "Michroma", serif;
@@ -105,7 +215,6 @@ body {
     width:100%;
     display: grid;
     place-items: center;
-    top: 10%;
     height:80%;
 }
 
@@ -119,28 +228,12 @@ body {
 }
 
 .home-me {
-    width: 98%;
-    height: 98%;
+    width:20rem;
+    height:20rem;
     border-radius: 49%;
     opacity:0.6;
     box-shadow:  10px 10px 100px rgba(255, 255, 255, 0.4);
 }
-
-.home-right {
-    position: relative;
-    width: 50%;
-    height: 100%;
-    margin-left: 50%;
-    overflow: hidden;
-}
-
-.home-background-image {
-    width: 100%;
-    height: 1000px;
-    object-fit: cover;
-    opacity: 0.2;
-}
-
 .home-buttons-container {
     width: 100%;
     height: 60%;
@@ -419,6 +512,22 @@ body {
 }
 .about-board{
     height: 98%;
+    width: 90%;
+    background-color: rgb(219, 219, 219);
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-container2 {
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    overflow-y: auto;
+}
+
+.about-board2 {
+    height: 95%;
     width: 90%;
     background-color: rgb(219, 219, 219);
     padding: 1%;
@@ -708,6 +817,7 @@ bottom: 150px;
 .footer-name{
     height: 100%;
     font-size: 3rem;
+    color: black;
     
 }
 .footer-links{

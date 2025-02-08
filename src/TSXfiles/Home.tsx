@@ -1,42 +1,46 @@
 import React, { useState } from 'react';
-import './Home.css';
-import background from './background.jpg';
-import me from './myMe.jpeg';
-import ttt from './ttt.png'
-import beyti from './beyti.png'
-import mobileBeyti from './mobileBeyti.jpeg'
-import beyti2 from './beyti2.jpeg'
-import beyti3 from './beyti3.jpeg'
-import linkedIn from './linkedin.png'
-import github from './github-logo.png'
-import gmail from './email.png'
+import '../files/Home.css';
+import background from '../files/images/background.jpg';
+import me from '../files/images/myMe.jpeg';
+import ttt from '../files/images/ttt.png'
+import beyti from '../files/images/beyti.png'
+import mobileBeyti from '../files/images/mobileBeyti.jpeg'
+import beyti2 from '../files/images/beyti2.jpeg'
+import beyti3 from '../files/images/beyti3.jpeg'
+import linkedIn from '../files/images/linkedin.png'
+import github from '../files/images/github-logo.png'
+import gmail from '../files/images/email.png'
+import { useNavigate } from 'react-router-dom';
 
 function Home() {
   
   const handleHireMeClick = () => {
     window.location.href = "mailto:ahmadalarab011@gmail.com?subject=Hiring%20Inquiry&body=Hello%20Ahmad,%20I%20am%20interested%20in%20hiring%20you.";
   }
+  const navigate = useNavigate();
 
   return (
     <div>
       {/* Home Section */}
       <div className="home-container">
         
-        <div className="home">
           <div className="navigation-bar">
             <div className="nav-buttons-container">
-            <button className="nav-buttons">home</button>
-            <button className="nav-buttons">projects</button>
-            <button className="nav-buttons">about</button>
-            <button className="nav-buttons">contact</button>
+            <button className="nav-buttons" onClick={() => navigate('./homepage')}>home</button>
+            <button className="nav-buttons" onClick={() => navigate('./projects')}>projects</button>
+            <button className="nav-buttons" onClick={() => navigate('./about')}>about</button>
+            <button className="nav-buttons" onClick={() => navigate('./contact')}>contact</button>
           </div>
           </div>
-          <div className="home-info-container">
-          <div className="home-name">
-            hello I'm <br /></div>
-            <div className="home-full-name">Ahmad AL ARAB</div>
-          <div className="motivation-sentence">Bringing skills in both frontend and backend to create effective solutions.</div>
+          <div className="home-left">
+            <div className="home-info-container">
+              <div className="home-name">
+              hello I'm <br /></div>
+              <div className="home-full-name">Ahmad AL ARAB</div>
+              <div className="motivation-sentence">Bringing skills in both frontend and backend to create effective solutions.</div>
           </div>
+          </div>
+          <div className="home-right">
           <div className="home-me-field">
           <div className="home-field">full stack web developer</div>
           <div className="home-me-container">
@@ -45,8 +49,8 @@ function Home() {
               </div>
             </div>
           </div>
+          </div>
         </div>
-      </div>
 
 <div className="ttt-container">
     <div className="ttt-right-container">
