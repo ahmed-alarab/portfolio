@@ -111,7 +111,7 @@ function Home() {
         </div>
         <div className="all-info">
         <div className="color-info">
-        <div className="orange-indicator"></div>
+        <div className="pink-indicator"></div>
         </div>
         <div className="text-info">
         <p className="color-name">goals</p>
@@ -119,7 +119,7 @@ function Home() {
         </div>
         <div className="all-info">
         <div className="color-info">
-        <div className="green-indicator"></div>
+        <div className="orange-indicator"></div>
         </div>
         <div className="text-info">
         <p className="color-name">interests</p>
@@ -127,7 +127,7 @@ function Home() {
         </div>
         <div className="all-info">
         <div className="color-info">
-        <div className="pink-indicator"></div>
+        <div className="green-indicator"></div>
         </div>
         <div className="text-info">
         <p className="color-name">growth & ambitions</p>
@@ -167,6 +167,7 @@ function Home() {
           <div className="about-blue-4"></div>
           </div>
           <div className="about-right">
+            <div className="about-orange-green">
           <div className="about-orange">
           <div className="about-orange-1">
             <ul className="skills-data">
@@ -186,20 +187,22 @@ function Home() {
           <div className="about-green">
           <div className="about-green-1">
             <ul className="skills-data">
-              <li>calesthenics</li>
-              <li>football</li>
+              <li>chess</li>
+              <li>sports</li>
               <li>meditation</li>
             </ul>
           </div>
           <div className="about-green-2">
             <ul className="skills-data">
-              <li>reading (ar)</li>
+              <li>reading (ar, en)</li>
               <li>writing (ar)</li>
               <li>english self development</li>
             </ul>
           </div>
           </div>
+          </div>
           <div className="about-pink">
+          <div className="about-pink-1">
             <ul className="skills-data">
               <p>working on many project that improve my skills in web dev. 
                 developing my problem solving skills and Staying up-to-date with the latest versions of
@@ -209,7 +212,19 @@ function Home() {
             </ul>
           </div>
           </div>
+          
         </div>
+    <div className="about-pink2">
+    <div className="about-pink-2">
+            <ul className="skills-data">
+              <p>working on many project that improve my skills in web dev. 
+                developing my problem solving skills and Staying up-to-date with the latest versions of
+                 frameworks and languages. <br/><br/> Preparing myself to effectively contribute to team projects
+                  or manage tasks individually, depending on the requirements of the job. <br/> <br/>
+                  Capable of acquiring new skills rapidly and adjusting to various work environments with ease.</p>
+            </ul>
+         </div> </div>
+    </div>
     </div>
     
 
