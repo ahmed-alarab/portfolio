@@ -17,21 +17,11 @@ function Home() {
   const handleHireMeClick = () => {
     window.location.href = "mailto:ahmadalarab011@gmail.com?subject=Hiring%20Inquiry&body=Hello%20Ahmad,%20I%20am%20interested%20in%20hiring%20you.";
   }
-  const navigate = useNavigate();
 
   return (
     <div>
       {/* Home Section */}
       <div className="home-container">
-        
-          <div className="navigation-bar">
-            <div className="nav-buttons-container">
-            <button className="nav-buttons" onClick={() => navigate('./homepage')}>home</button>
-            <button className="nav-buttons" onClick={() => navigate('./projects')}>projects</button>
-            <button className="nav-buttons" onClick={() => navigate('./about')}>about</button>
-            <button className="nav-buttons" onClick={() => navigate('./contact')}>contact</button>
-          </div>
-          </div>
           <div className="home-left">
             <div className="home-info-container">
               <div className="home-name">
