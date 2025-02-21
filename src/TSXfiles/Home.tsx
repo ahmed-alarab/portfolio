@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import '../files/Home.css';
-import background from '../files/images/background.jpg';
 import me from '../files/images/myMe.jpeg';
 import ttt from '../files/images/ttt.png'
 import beyti from '../files/images/beyti.png'
@@ -10,7 +9,6 @@ import beyti3 from '../files/images/beyti3.jpeg'
 import linkedIn from '../files/images/linkedin.png'
 import github from '../files/images/github-logo.png'
 import gmail from '../files/images/email.png'
-import { useNavigate } from 'react-router-dom';
 
 function Home() {
   
