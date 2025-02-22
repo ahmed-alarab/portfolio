@@ -233,8 +233,8 @@ function Home() {
 </div>
         <div className="footer-links">
           <div className="footer-icons">
-          <a href="linkedin.com/in/ahmad-alarab-7973842b6"><img className="footer-icon" src={linkedIn} alt="hehe"></img></a>
-          <a href="https:github.com/ahmed-alarab"><img className="footer-icon" src={github} alt="hehe"></img></a>
+          <a href="https://www.linkedin.com/in/ahmad-alarab-7973842b6"><img className="footer-icon" src={linkedIn} alt="hehe"></img></a>
+          <a href="https://github.com/ahmed-alarab"><img className="footer-icon" src={github} alt="hehe"></img></a>
           <a href="mailto:ahmadalarab011@gmail.com"><img className="footer-icon" src={gmail} alt="hehe"></img></a>
         </div>
         </div>
