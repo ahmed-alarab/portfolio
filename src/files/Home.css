@@ -2196,8 +2196,8 @@
     overflow: hidden;
   }
   .footer-name-container {
-    min-width: 25%;
-    max-width: 25%;
+    min-width: 30%;
+    max-width: 30%;
     height: 100%;
     position: relative;
     display: grid;
@@ -2210,21 +2210,22 @@
   }
   .footer-links {
     position: absolute;
-    width: 50%;
+    width: 40%;
     height: 80%;
     top: 20%;
-    left: 75%;
+    left: 60%;
     display: flex;
+    place-content: center;
   }
   .footer-icons {
-    width: 50%;
+    width: 80%;
     height: 80%;
     display: flex;
     justify-content: space-around;
   }
   .footer-icon {
     height: 100%;
-    width: 40px;
+    width: 100%;
   }
   .skills-data{
     font-size: 1rem;
