@@ -799,6 +799,243 @@
     width: 50px;
   }
 }
+@media (max-width: 1800px) {
+  .about-container {
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Allows content to flow naturally */
+    align-items: center; /* Centers items horizontally */
+    min-height: 100vh; /* Starts at full height but allows growth */
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .about-board {
+    position: relative;
+    min-height: 100vh;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5vh;
+  }
+  .about-container2 {
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    overflow-y: auto;
+  }
+
+  .about-board2 {
+    height: 98%;
+    width: 90%;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-blue {
+    width: 50%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5vh;
+    place-content: center;
+  }
+  .about-blue-1 {
+    background-color: white;
+    width: 80%;
+    border: 3px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightblue,
+      white,
+      lightblue,
+      white,
+      lightblue
+    );
+    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
+      5px 0px 20px lightblue, -5px 0px 20px lightblue;
+    border-image-slice: 1;
+  }
+  .about-blue-2 {
+    background-color: white;
+    width: 80%;
+    border: 3px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightblue,
+      white,
+      lightblue,
+      white,
+      lightblue
+    );
+    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
+      5px 0px 20px lightblue, -5px 0px 20px lightblue;
+    border-image-slice: 1;
+  }
+  .about-blue-3 {
+    background-color: white;
+    width: 80%;
+    border: 3px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightblue,
+      white,
+      lightblue,
+      white,
+      lightblue
+    );
+    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
+      5px 0px 20px lightblue, -5px 0px 20px lightblue;
+    border-image-slice: 1;
+  }
+  .about-blue-4 {
+    display: none;
+    background-color: white;
+    width: 80%;
+    border: 3px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightblue,
+      white,
+      lightblue,
+      white,
+      lightblue
+    );
+    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
+      5px 0px 20px lightblue, -5px 0px 20px lightblue;
+    border-image-slice: 1;
+  }
+  .about-right {
+    width: 50%;
+    display: grid;
+    gap: 5vh;
+  }
+  .about-orange-green {
+    width: 100%;
+    display: grid;
+    gap: 5vh;
+  }
+  .about-orange {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 5vh;
+  }
+  .about-orange-1 {
+    width: 80%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 10px 5px;
+    border: 5px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      rgb(255, 69, 255),
+      white,
+      rgb(255, 69, 255),
+      white,
+      rgb(255, 69, 255)
+    );
+    box-shadow: 0px 5px 20px rgb(255, 69, 255), 0px -5px 20px rgb(255, 69, 255),
+      5px 0px 20px rgb(255, 69, 255), -5px 0px 20px rgb(255, 69, 255);
+    border-image-slice: 1;
+  }
+  .about-orange-2 {
+    width: 80%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 10px 5px;
+    border: 5px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      rgb(255, 69, 255),
+      white,
+      rgb(255, 69, 255),
+      white,
+      rgb(255, 69, 255)
+    );
+    box-shadow: 0px 5px 20px rgb(255, 69, 255), 0px -5px 20px rgb(255, 69, 255),
+      5px 0px 20px rgb(255, 69, 255), -5px 0px 20px rgb(255, 69, 255);
+    border-image-slice: 1;
+  }
+  .about-green {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
+    gap: 5vh;
+  }
+  .about-green-1 {
+    width: 80%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 10px 5px;
+    border: 5px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightgreen,
+      white,
+      lightgreen,
+      white,
+      lightgreen
+    );
+    box-shadow: 0px 5px 20px lightgreen, 0px -5px 20px lightgreen,
+      5px 0px 20px lightgreen, -5px 0px 20px lightgreen;
+    border-image-slice: 1;
+  }
+  .skills-data {
+    font-size: 1.5rem;
+  }
+  .about-green-2 {
+    width: 80%;
+    height: 40%;
+    background-color: white;
+    box-shadow: 0px 10px 5px;
+    border: 5px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(
+      lightgreen,
+      white,
+      lightgreen,
+      white,
+      lightgreen
+    );
+    box-shadow: 0px 5px 20px lightgreen, 0px -5px 20px lightgreen,
+      5px 0px 20px lightgreen, -5px 0px 20px lightgreen;
+    border-image-slice: 1;
+  }
+  .about-pink {
+    /*pink container*/
+
+    width: 100%;
+    display: none;
+    flex-wrap: wrap;
+    place-content: center;
+  }
+  .about-pink2 {
+    width: 100%;
+    display: flex;
+    place-content: center;
+  }
+  .about-pink-2 {
+    position: relative;
+    width: 80%;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    border: 5px solid;
+    /* Define border width */
+    border-image-source: linear-gradient(pink, white, pink, white, pink);
+    box-shadow: 0px 5px 20px pink, 0px -5px 20px pink, 5px 0px 20px pink,
+      -5px 0px 20px pink;
+    border-image-slice: 1;
+    background-color: white;
+  }
+}
 @media (min-width: 1250px) {
   .home-full-name {
     position: relative;
@@ -1410,6 +1647,7 @@
     height: 100%;
     width: 50px;
   }
+  
 }
 
 .home-name2 {
@@ -1702,7 +1940,7 @@
   .mobileBeyti-images {
     position: relative;
     width: 100%;
-    height: 30vh;
+    height: 20vh;
     display: flex;
     place-content: center;
     gap: 10%;
@@ -1958,8 +2196,8 @@
     overflow: hidden;
   }
   .footer-name-container {
-    min-width: 40%;
-    max-width: 40%;
+    min-width: 25%;
+    max-width: 25%;
     height: 100%;
     position: relative;
     display: grid;
@@ -1967,7 +2205,7 @@
   }
   .footer-name {
     height: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: black;
   }
   .footer-links {
@@ -1988,6 +2226,10 @@
     height: 100%;
     width: 40px;
   }
+  .skills-data{
+    font-size: 1rem;
+  }
+
 }
 
 .home-full-name2 {
@@ -2066,240 +2308,4 @@
   transition: 0.4s;
 }
 
-@media (max-width: 1800px) {
-  .about-container {
-    background-color: black;
-    display: flex;
-    flex-direction: column; /* Allows content to flow naturally */
-    align-items: center; /* Centers items horizontally */
-    min-height: 100vh; /* Starts at full height but allows growth */
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-  }
 
-  .about-board {
-    position: relative;
-    min-height: 100vh;
-    width: 90%;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-    padding-top: 5vh;
-  }
-  .about-container2 {
-    min-height: 100vh;
-    background-color: black;
-    display: grid;
-    place-items: center;
-    overflow-y: auto;
-  }
-
-  .about-board2 {
-    height: 98%;
-    width: 90%;
-    background-color: black;
-    display: flex;
-    flex-wrap: wrap;
-  }
-  .about-blue {
-    width: 50%;
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5vh;
-    place-content: center;
-  }
-  .about-blue-1 {
-    background-color: white;
-    width: 80%;
-    border: 3px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightblue,
-      white,
-      lightblue,
-      white,
-      lightblue
-    );
-    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
-      5px 0px 20px lightblue, -5px 0px 20px lightblue;
-    border-image-slice: 1;
-  }
-  .about-blue-2 {
-    background-color: white;
-    width: 80%;
-    border: 3px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightblue,
-      white,
-      lightblue,
-      white,
-      lightblue
-    );
-    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
-      5px 0px 20px lightblue, -5px 0px 20px lightblue;
-    border-image-slice: 1;
-  }
-  .about-blue-3 {
-    background-color: white;
-    width: 80%;
-    border: 3px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightblue,
-      white,
-      lightblue,
-      white,
-      lightblue
-    );
-    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
-      5px 0px 20px lightblue, -5px 0px 20px lightblue;
-    border-image-slice: 1;
-  }
-  .about-blue-4 {
-    display: none;
-    background-color: white;
-    width: 80%;
-    border: 3px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightblue,
-      white,
-      lightblue,
-      white,
-      lightblue
-    );
-    box-shadow: 0px 5px 20px lightblue, 0px -5px 20px lightblue,
-      5px 0px 20px lightblue, -5px 0px 20px lightblue;
-    border-image-slice: 1;
-  }
-  .about-right {
-    width: 50%;
-    display: grid;
-    gap: 5vh;
-  }
-  .about-orange-green {
-    width: 100%;
-    display: grid;
-    gap: 5vh;
-  }
-  .about-orange {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    place-content: center;
-    gap: 5vh;
-  }
-  .about-orange-1 {
-    width: 80%;
-    height: 40%;
-    background-color: white;
-    box-shadow: 0px 10px 5px;
-    border: 5px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      rgb(255, 69, 255),
-      white,
-      rgb(255, 69, 255),
-      white,
-      rgb(255, 69, 255)
-    );
-    box-shadow: 0px 5px 20px rgb(255, 69, 255), 0px -5px 20px rgb(255, 69, 255),
-      5px 0px 20px rgb(255, 69, 255), -5px 0px 20px rgb(255, 69, 255);
-    border-image-slice: 1;
-  }
-  .about-orange-2 {
-    width: 80%;
-    height: 40%;
-    background-color: white;
-    box-shadow: 0px 10px 5px;
-    border: 5px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      rgb(255, 69, 255),
-      white,
-      rgb(255, 69, 255),
-      white,
-      rgb(255, 69, 255)
-    );
-    box-shadow: 0px 5px 20px rgb(255, 69, 255), 0px -5px 20px rgb(255, 69, 255),
-      5px 0px 20px rgb(255, 69, 255), -5px 0px 20px rgb(255, 69, 255);
-    border-image-slice: 1;
-  }
-  .about-green {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    place-content: center;
-    gap: 5vh;
-  }
-  .about-green-1 {
-    width: 80%;
-    height: 40%;
-    background-color: white;
-    box-shadow: 0px 10px 5px;
-    border: 5px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightgreen,
-      white,
-      lightgreen,
-      white,
-      lightgreen
-    );
-    box-shadow: 0px 5px 20px lightgreen, 0px -5px 20px lightgreen,
-      5px 0px 20px lightgreen, -5px 0px 20px lightgreen;
-    border-image-slice: 1;
-  }
-  .skills-data {
-    font-size: 1.5rem;
-  }
-  .about-green-2 {
-    width: 80%;
-    height: 40%;
-    background-color: white;
-    box-shadow: 0px 10px 5px;
-    border: 5px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(
-      lightgreen,
-      white,
-      lightgreen,
-      white,
-      lightgreen
-    );
-    box-shadow: 0px 5px 20px lightgreen, 0px -5px 20px lightgreen,
-      5px 0px 20px lightgreen, -5px 0px 20px lightgreen;
-    border-image-slice: 1;
-  }
-  .about-pink {
-    /*pink container*/
-
-    width: 100%;
-    display: none;
-    flex-wrap: wrap;
-    place-content: center;
-  }
-  .about-pink2 {
-    width: 100%;
-    display: flex;
-    place-content: center;
-  }
-  .about-pink-2 {
-    position: relative;
-    width: 80%;
-    margin-bottom: 5vh;
-    margin-top: 5vh;
-    border: 5px solid;
-    /* Define border width */
-    border-image-source: linear-gradient(pink, white, pink, white, pink);
-    box-shadow: 0px 5px 20px pink, 0px -5px 20px pink, 5px 0px 20px pink,
-      -5px 0px 20px pink;
-    border-image-slice: 1;
-    background-color: white;
-  }
-}
