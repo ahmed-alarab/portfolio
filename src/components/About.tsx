@@ -10,25 +10,20 @@ export default function About() {
       <div className="mt-10 grid gap-12 lg:grid-cols-[1.3fr_1fr] lg:gap-16">
         <div className="space-y-5 text-[15px] leading-relaxed text-ink-dim sm:text-base">
           <p>
-            I&rsquo;m a full-stack developer who likes taking a project from an empty
-            folder to something a real person actually uses — whether that&rsquo;s a
-            barbershop taking bookings online instead of by phone, or a housing
-            listing site built during a genuinely hard time in Lebanon.
+            I&rsquo;m a full-stack developer who takes projects from an empty folder
+            to something real people use &mdash; a barbershop taking bookings
+            online, a housing site built during the crisis in Lebanon.
           </p>
           <p>
-            Most of my recent work has been full-stack TypeScript — Next.js and
-            React on the frontend, Prisma or Laravel underneath — plus React
-            Native when a project needs to live on a phone, not just a browser.
-            I care as much about the unglamorous parts (validation, auth,
-            admin panels, an app that still works with no data in it) as the
-            UI on top.
+            Mostly full-stack TypeScript &mdash; Next.js and React up front,
+            Prisma or Laravel underneath, React Native when it needs to live on
+            a phone. I care about the unglamorous parts too: validation, auth,
+            admin panels, empty states.
           </p>
           <p>
-            Alongside that, I&rsquo;m studying Software Engineering at{' '}
-            <span className="text-ink">42 Beirut</span> — a peer-driven,
-            project-based program with no lectures, which means most of what
-            I know about C, algorithms, and working without a safety net came
-            from getting stuck and figuring it out.
+            I&rsquo;m also studying Software Engineering at{' '}
+            <span className="text-ink">42 Beirut</span> &mdash; peer-driven, no
+            lectures, which is where the C and algorithms came from.
           </p>
         </div>
 
@@ -38,8 +33,7 @@ export default function About() {
               Currently
             </h3>
             <p className="text-sm text-ink-dim">
-              Building client work freelance, and sharpening fundamentals at
-              42 Beirut.
+              Freelance client work, and fundamentals at 42 Beirut.
             </p>
           </div>
           <div>

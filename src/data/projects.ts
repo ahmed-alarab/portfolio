@@ -40,6 +40,7 @@ export const projects: Project[] = [
     role: 'Solo project',
     links: [],
     note: 'Private repo',
+    image: 'kutubcart',
     accent: 'rose',
   },
   {
@@ -55,43 +56,8 @@ export const projects: Project[] = [
       { label: 'Web repo', href: 'https://github.com/ahmed-alarab/web-beyti' },
       { label: 'Mobile repo', href: 'https://github.com/ahmed-alarab/mobile-beyti' },
     ],
+    image: 'beyti',
     accent: 'green',
-  },
-  {
-    slug: 'smart-meeting-room',
-    name: 'Smart Meeting Room',
-    tagline: 'Role-based room booking, built for a systems course',
-    description:
-      'A Laravel app for booking meeting rooms with three roles — admin, employee, guest — each with a different view. Employees book and reschedule rooms and log attendees for a meeting; admins manage the room inventory. Built for the "Integrated Digital Systems" course.',
-    tech: ['Laravel', 'PHP', 'Blade', 'MySQL', 'Tailwind CSS'],
-    year: '2025',
-    role: 'Solo project',
-    links: [{ label: 'View code', href: 'https://github.com/ahmed-alarab/SMR' }],
-    accent: 'cool',
-  },
-  {
-    slug: 'sudoku',
-    name: 'Sudoku Vision Solver',
-    tagline: 'Point a photo at a sudoku, watch it read the grid',
-    description:
-      "A playable sudoku board with live validity checking, plus a computer-vision path: OpenCV.js locates the 9×9 grid in a photo, Tesseract OCR reads the printed digits, and the board fills itself in — all running client-side in the browser, no server round-trip.",
-    tech: ['React', 'TypeScript', 'OpenCV.js', 'Tesseract.js'],
-    year: '2025',
-    role: 'Solo project',
-    links: [{ label: 'View code', href: 'https://github.com/ahmed-alarab/sudoku' }],
-    accent: 'cool',
-  },
-  {
-    slug: 'memory-match',
-    name: 'Memory Match',
-    tagline: 'A clean, small memory-card game',
-    description:
-      'A memory-matching card game — kept intentionally small: flip logic, match detection, and win state, done cleanly in typed React rather than left tangled.',
-    tech: ['React', 'TypeScript'],
-    year: '2025',
-    role: 'Solo project',
-    links: [{ label: 'View code', href: 'https://github.com/ahmed-alarab/memory-card-game' }],
-    accent: 'rose',
   },
 ]
 

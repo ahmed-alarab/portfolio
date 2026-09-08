@@ -1,5 +1,7 @@
 # Ahmad Al Arab — Portfolio
 
+Live at **[ziidev.netlify.app](https://ziidev.netlify.app)**.
+
 Personal portfolio site. Rebuilt in 2026 on Vite + React + TypeScript +
 Tailwind CSS, replacing the original Create React App version.
 
@@ -7,7 +9,7 @@ Tailwind CSS, replacing the original Create React App version.
 
 - [Vite](https://vite.dev) + React 19 + TypeScript
 - [Tailwind CSS v4](https://tailwindcss.com) (via `@tailwindcss/vite`)
-- Deployed on Netlify (`netlify.toml` — `npm run build`, publishes `dist/`)
+- Deployed on Netlify from `main` (`netlify.toml` — `npm run build`, publishes `dist/`)
 
 ## Structure
 

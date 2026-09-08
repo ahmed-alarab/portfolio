@@ -1,9 +1,13 @@
 import type { Project } from '../data/projects'
 import barbershopCover from '../assets/barbershop-cover.jpg'
+import kutubcartCover from '../assets/kutubcart-cover.jpg'
+import beytiCover from '../assets/beyti-cover.jpg'
 import { ArrowUpRightIcon, LockIcon } from './icons'
 
 const covers: Record<string, string> = {
   barbershop: barbershopCover,
+  kutubcart: kutubcartCover,
+  beyti: beytiCover,
 }
 
 function initials(name: string) {
