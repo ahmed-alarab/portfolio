@@ -1,6 +1,7 @@
+import { education } from '../data/experience'
 import SectionHeading from './SectionHeading'
 
-const interests = ['Chess', 'Sports', 'Meditation', 'Reading & writing (Arabic/English)']
+const interests = ['Chess', 'Sports', 'Meditation', 'Reading & writing']
 
 export default function About() {
   return (
@@ -21,9 +22,11 @@ export default function About() {
             admin panels, empty states.
           </p>
           <p>
-            I&rsquo;m also studying Software Engineering at{' '}
-            <span className="text-ink">42 Beirut</span> &mdash; peer-driven, no
-            lectures, which is where the C and algorithms came from.
+            I&rsquo;m finishing a Computer Science degree at{' '}
+            <span className="text-ink">Antonine University</span> and studying
+            alongside it at <span className="text-ink">42 Beirut</span> &mdash;
+            peer-driven, no lectures, which is where the C and the low-level
+            work came from.
           </p>
         </div>
 
@@ -33,7 +36,31 @@ export default function About() {
               Currently
             </h3>
             <p className="text-sm text-ink-dim">
-              Freelance client work, and fundamentals at 42 Beirut.
+              Teaching coding and robotics part-time, taking on freelance work,
+              and finishing up at Antonine and 42 Beirut.
+            </p>
+          </div>
+          <div>
+            <h3 className="mb-3 font-mono text-xs uppercase tracking-wider text-ink-faint">
+              Education
+            </h3>
+            <ul className="flex flex-col gap-3">
+              {education.map((item) => (
+                <li key={`${item.title}-${item.org}`} className="text-sm">
+                  <span className="text-ink-dim">{item.title}</span>
+                  <span className="block font-mono text-xs text-ink-faint">
+                    {item.org} &middot; {item.period}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <h3 className="mb-3 font-mono text-xs uppercase tracking-wider text-ink-faint">
+              Languages
+            </h3>
+            <p className="text-sm text-ink-dim">
+              English and Arabic fluently, French at a basic level.
             </p>
           </div>
           <div>

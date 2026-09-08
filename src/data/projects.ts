@@ -65,9 +65,22 @@ export const skillGroups: { label: string; items: string[] }[] = [
   { label: 'Languages', items: ['TypeScript', 'JavaScript', 'PHP', 'Python', 'C', 'C++', 'Java'] },
   {
     label: 'Frontend',
-    items: ['React', 'React Native / Expo', 'Next.js', 'Tailwind CSS', 'HTML & CSS'],
+    items: ['React', 'React Native / Expo', 'Next.js', 'Vue.js', 'Tailwind CSS', 'HTML & CSS'],
   },
-  { label: 'Backend & data', items: ['Laravel', 'Prisma', 'MySQL', 'MongoDB', 'PL/SQL', 'Zod'],
+  {
+    label: 'Backend & data',
+    items: ['Laravel', '.NET Core', 'Prisma', 'MySQL', 'MongoDB', 'PL/SQL', 'Zod'],
   },
-  { label: 'Tools', items: ['Git & GitHub', 'Vite', 'Vercel / Netlify', 'JavaFX'] },
+  {
+    label: 'Tools & platforms',
+    items: [
+      'Git & GitHub',
+      'Docker',
+      'Linux',
+      'Power Platform',
+      'Vite',
+      'Netlify / Vercel',
+      'JavaFX',
+    ],
+  },
 ]

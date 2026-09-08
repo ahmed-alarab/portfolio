@@ -46,7 +46,7 @@ export default function Hero() {
           <div className="mt-12 flex flex-wrap gap-x-10 gap-y-3 border-t border-border-soft pt-6 font-mono text-xs text-ink-faint">
             <span>{profile.location}</span>
             <span>6+ shipped projects</span>
-            <span>42 Beirut · Software Engineering</span>
+            <span>CS @ Antonine · 42 Beirut</span>
           </div>
         </div>
 
